@@ -1,0 +1,6 @@
+-r requirements.txt
+# CUDA 12.3 runtimes match this laptop's existing NVIDIA driver. No system toolkit needed.
+nvidia-cublas-cu12==12.3.4.1; sys_platform == 'win32'
+nvidia-cudnn-cu12==9.1.1.17; sys_platform == 'win32'
+nvidia-cuda-runtime-cu12==12.3.101; sys_platform == 'win32'
+nvidia-cuda-nvrtc-cu12==12.3.107; sys_platform == 'win32'
